@@ -66,7 +66,6 @@ class ProductDestroyView(DestroyAPIView):
         return response
 
 
-
 class ProductListCreateView(ListAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
